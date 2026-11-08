@@ -1,0 +1,18 @@
+08:08:00 device cuda
+08:10:09 N5k images 3260 test 506
+08:10:22 NV columns ['dish_id', 'total_food_weight', 'total_calories', 'total_fats', 'total_carbohydrates', 'total_protein', 'total_calcium', 'total_iron', 'total_magnesium', 'total_potassium', 'total_sodium', 'total_vitamin_d'] calorie col total_calories
+08:13:50 NV images 889 dishes 225
+08:19:48 E1 base {'R_pool': [20.17, 13.93, 31.11, 28.05, 29.08], 'R_sum': [17.96, 12.67, 27.18, 24.07, 24.67], 'R_soft': [17.47, 12.67, 27.12, 24.35, 24.86], 'M': [18.57, 12.56, 28.09, 23.97, 26.53]} factors [8.72, 3.74, 4.23]
+08:27:40 E1 large {'R_pool': [19.11, 15.09, 29.79, 26.79, 28.49], 'R_sum': [17.75, 12.32, 26.67, 22.89, 24.17], 'R_soft': [17.26, 12.37, 26.76, 22.75, 24.3], 'M': [17.42, 12.59, 26.93, 23.11, 24.51]} factors [8.74, 3.73, 4.23]
+08:28:07 E2 0.05 {'R_pool': 33.31, 'R_sum': 28.94, 'R_soft': 29.56, 'M': 26.76}
+08:28:43 E2 0.1 {'R_pool': 30.71, 'R_sum': 25.12, 'R_soft': 25.42, 'M': 22.99}
+08:29:43 E2 0.25 {'R_pool': 24.04, 'R_sum': 21.22, 'R_soft': 20.99, 'M': 20.9}
+08:31:23 E2 0.5 {'R_pool': 22.49, 'R_sum': 19.41, 'R_soft': 19.13, 'M': 19.83}
+08:34:05 E2 1.0 {'R_pool': 19.6, 'R_sum': 17.75, 'R_soft': 17.4, 'M': 17.91}
+08:38:00 E3 base {'R_pool': 26.29, 'R_sum': 23.94, 'R_soft': 24.71, 'M': 18.86} factors [9.03, 3.94, 4.0]
+08:42:39 E3 large {'R_pool': 27.42, 'R_sum': 23.41, 'R_soft': 24.69, 'M': 18.95} factors [9.06, 3.96, 3.98]
+08:45:08 E4 cross {'R_pool': 83.46, 'R_sum': 75.73, 'R_soft': 75.89, 'M': 73.71}
+08:50:42 E5 {'M_f1.0': 17.91, 'M_fixed_f1.0': 17.91, 'M_nocomp_f1.0': 17.34, 'M_f0.1': 22.5, 'M_fixed_f0.1': 22.49, 'M_nocomp_f0.1': 23.91, 'R_sum_grid4': 17.91, 'M_grid4': 18.56, 'R_sum_grid8': 17.1, 'M_grid8': 17.79, 'R_sum_grid16': 17.52, 'M_grid16': 17.81}
+08:50:42 E8 {8: {'top_energy_cells': 0.2882061302661896, 'random_cells': -0.05796097218990326}, 16: {'top_energy_cells': 0.4205954372882843, 'random_cells': -0.11467615514993668}, 32: {'top_energy_cells': 0.463395893573761, 'random_cells': -0.22947314381599426}, 64: {'top_energy_cells': 0.2482447326183319, 'random_cells': -0.45508235692977905}}
+08:50:59 FILES ['T1_datasets.csv', 'T2_main_n5k.csv', 'T3_learning_curve.csv', 'T4_factors.csv', 'T5_nvr.csv', 'T5b_cross_n5k_to_nvr.csv', 'T6_ablations.csv', 'T7_cost.csv', 'T8_error_analysis.csv', 'T8b_worst12.csv', 'T9_deletion.csv'] ['F_consistency.pdf', 'F_consistency.png', 'F_deletion.pdf', 'F_deletion.png', 'F_error_by_mass.pdf', 'F_error_by_mass.png', 'F_factors.pdf', 'F_factors.png', 'F_learning_curve.pdf', 'F_learning_curve.png', 'F_maps_examples.pdf', 'F_maps_examples.png', 'F_scatter_n5k.pdf', 'F_scatter_n5k.png', 'F_training_curves.pdf', 'F_training_curves.png']
+08:50:59 DONE

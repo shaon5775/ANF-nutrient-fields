@@ -1,0 +1,1 @@
+{"total_min": 42.98487898508708, "feat_ms_per_img_base": 28.990268999813523, "feat_ms_per_img_large": 63.332377621001264, "head_ms_per_img_R_pool": 0.0015262048691511154, "head_ms_per_img_R_sum": 0.006648711860179901, "head_ms_per_img_R_soft": 0.006595207378268242, "head_ms_per_img_M": 0.007719825953245163}
