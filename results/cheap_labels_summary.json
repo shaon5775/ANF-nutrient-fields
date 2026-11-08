@@ -1,0 +1,19 @@
+{
+ "note": "Test EA (prereg_testEA.md). Kaggle shaon5775/notebooka6e4971243 v1, 20.1 min, GPU T4 x2, 7 Nov 2026. Means over draws 200-202 computed in-browser from ea_results.json (same rule as analyse_testEA.py). Format per model: [macro PMAE (fat/carb/prot mean), kcal PMAE, mass PMAE]. Bootstrap CIs not computed (ea_preds.npz not downloaded).",
+ "f0.10": {
+  "A0":  {"R_pool": [42.13, 30.33, 18.92], "R_sum": [34.83, 25.30, 16.93], "R_soft": [34.98, 25.21, 16.85], "M": [34.09, 23.05, 18.38]},
+  "AE":  {"R_pool": [35.79, 19.74, 17.83], "R_sum": [30.34, 18.45, 16.31], "R_soft": [29.59, 18.59, 16.22], "M": [30.32, 18.11, 18.16]},
+  "AM":  {"R_pool": [38.93, 27.13, 13.84], "R_sum": [32.72, 23.93, 12.54], "R_soft": [32.96, 23.22, 12.53], "M": [32.82, 21.98, 12.37]},
+  "AEM": {"R_pool": [35.30, 19.61, 13.66], "R_sum": [30.37, 18.31, 12.51], "R_soft": [29.60, 18.54, 12.58], "M": [30.34, 18.44, 12.44]}
+ },
+ "f0.05": {
+  "A0":  {"R_pool": [46.47, 33.16, 21.83], "R_sum": [40.03, 28.67, 20.21], "R_soft": [40.73, 29.26, 20.36], "M": [37.85, 26.31, 21.80]},
+  "AE":  {"R_pool": [38.52, 19.40, 19.87], "R_sum": [34.29, 18.47, 18.36], "R_soft": [32.41, 18.30, 17.93], "M": [31.17, 18.39, 21.80]},
+  "AM":  {"R_pool": [41.97, 28.83, 13.51], "R_sum": [36.81, 26.26, 12.39], "R_soft": [38.12, 26.78, 12.35], "M": [35.70, 25.13, 12.25]},
+  "AEM": {"R_pool": [38.12, 19.38, 13.58], "R_sum": [33.27, 18.04, 12.52], "R_soft": [32.41, 18.35, 12.56], "M": [31.15, 18.26, 12.18]}
+ },
+ "factors_ANF_f0.10": {"A0": [8.96, 3.89, 4.00], "AE": [8.84, 3.82, 4.01], "AEM": [8.82, 3.84, 4.01]},
+ "H1_AE_f0.10": {"anf_gain_pct": 11.06, "a_gain_ge5": true, "b_beats_all": false, "beaten_by": "R_soft 29.59 < ANF 30.32", "PASS": false},
+ "H2_AEM_f0.10": {"anf_gain_pct": 11.0, "a_gain_ge5": true, "b_beats_all": false, "beaten_by": "R_soft 29.60 < ANF 30.34", "PASS": false},
+ "TEST_PASS": false
+}

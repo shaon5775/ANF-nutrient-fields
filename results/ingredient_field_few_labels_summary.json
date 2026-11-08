@@ -1,0 +1,9 @@
+{"_source": "Kaggle shaon5775/notebook947612c1be v1 (GPU T4 x2), 7.2 min, 7-8 Nov 2026; AGG lines copied from the run log. Rules: prereg_testEC.md",
+ "f0.10": {"IAF": {"pmae": [22.043, 19.404, 34.731, 29.632, 28.855], "macro3": 31.073, "H_minus_H0": 0.2669, "ci": [0.25, 0.2829], "pointing": 0.751, "group_mae_pct": 93.08},
+           "ANF": {"pmae": [22.593, 17.877, 34.965, 32.395, 33.903], "macro3": 33.754}},
+ "f0.05": {"IAF": {"pmae": [25.429, 26.723, 42.368, 32.798, 34.884], "macro3": 36.683, "H_minus_H0": 0.1659, "ci": [0.1504, 0.182], "pointing": 0.644, "group_mae_pct": 117.17},
+           "ANF": {"pmae": [26.817, 22.086, 43.151, 35.133, 37.443], "macro3": 38.576}},
+ "H1_10pct": {"iaf_kcal": 22.04, "anf_kcal_plus1": 23.59, "iaf_macro3": 31.07, "anf_macro3_plus1": 34.75, "PASS": true},
+ "H2_10pct": {"H_minus_H0": 0.267, "ci": [0.25, 0.283], "PASS": true},
+ "TEST_PASS": true,
+ "NVR_note": "nutritionverse_dish_metadata3.csv has per-item columns food_item_type_k, food_weight_g_k, calories/fat/carbohydrates/protein_k -> IAF can run on NVR later"}

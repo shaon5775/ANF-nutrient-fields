@@ -1,0 +1,558 @@
+{
+ "cells": {
+  "N5k_R1_S0": {
+   "n": 3,
+   "start": [
+    9.0,
+    4.0,
+    4.0
+   ],
+   "final": [
+    8.719,
+    3.74,
+    4.235
+   ],
+   "ratio": [
+    0.969,
+    0.935,
+    1.059
+   ],
+   "in_band": true,
+   "moved_toward": [
+    true,
+    true,
+    true
+   ],
+   "order_ok": true,
+   "kcal_pmae": 18.96
+  },
+  "N5k_R1_S1": {
+   "n": 3,
+   "start": [
+    6.0,
+    6.0,
+    6.0
+   ],
+   "final": [
+    6.921,
+    4.026,
+    5.097
+   ],
+   "ratio": [
+    0.769,
+    1.007,
+    1.274
+   ],
+   "in_band": false,
+   "moved_toward": [
+    true,
+    true,
+    true
+   ],
+   "order_ok": true,
+   "kcal_pmae": 18.96,
+   "kcal_minus_S0": 0.0,
+   "dist_to_S0": 2.014
+  },
+  "N5k_R1_S2": {
+   "n": 3,
+   "start": [
+    4.0,
+    9.0,
+    9.0
+   ],
+   "final": [
+    2.986,
+    5.778,
+    6.366
+   ],
+   "ratio": [
+    0.332,
+    1.444,
+    1.591
+   ],
+   "in_band": false,
+   "moved_toward": [
+    false,
+    true,
+    true
+   ],
+   "order_ok": false,
+   "kcal_pmae": 21.7,
+   "kcal_minus_S0": 2.74,
+   "dist_to_S0": 6.447
+  },
+  "N5k_R1_S3": {
+   "n": 3,
+   "start": [
+    3.0,
+    3.0,
+    3.0
+   ],
+   "final": [
+    5.592,
+    4.493,
+    5.194
+   ],
+   "ratio": [
+    0.621,
+    1.123,
+    1.299
+   ],
+   "in_band": false,
+   "moved_toward": [
+    true,
+    true,
+    false
+   ],
+   "order_ok": true,
+   "kcal_pmae": 19.64,
+   "kcal_minus_S0": 0.68,
+   "dist_to_S0": 3.356
+  },
+  "N5k_R1_S4": {
+   "n": 3,
+   "start": [
+    12.0,
+    12.0,
+    12.0
+   ],
+   "final": [
+    8.256,
+    8.197,
+    8.218
+   ],
+   "ratio": [
+    0.917,
+    2.049,
+    2.054
+   ],
+   "in_band": false,
+   "moved_toward": [
+    true,
+    true,
+    true
+   ],
+   "order_ok": true,
+   "kcal_pmae": 37.65,
+   "kcal_minus_S0": 18.69,
+   "dist_to_S0": 5.995
+  },
+  "N5k_R10_S0": {
+   "n": 3,
+   "start": [
+    9.0,
+    4.0,
+    4.0
+   ],
+   "final": [
+    8.512,
+    3.725,
+    4.392
+   ],
+   "ratio": [
+    0.946,
+    0.931,
+    1.098
+   ],
+   "in_band": true,
+   "moved_toward": [
+    true,
+    true,
+    true
+   ],
+   "order_ok": true,
+   "kcal_pmae": 18.88
+  },
+  "N5k_R10_S1": {
+   "n": 3,
+   "start": [
+    6.0,
+    6.0,
+    6.0
+   ],
+   "final": [
+    8.5,
+    3.723,
+    4.402
+   ],
+   "ratio": [
+    0.944,
+    0.931,
+    1.1
+   ],
+   "in_band": true,
+   "moved_toward": [
+    true,
+    true,
+    true
+   ],
+   "order_ok": true,
+   "kcal_pmae": 18.96,
+   "kcal_minus_S0": 0.08,
+   "dist_to_S0": 0.016
+  },
+  "N5k_R10_S2": {
+   "n": 3,
+   "start": [
+    4.0,
+    9.0,
+    9.0
+   ],
+   "final": [
+    8.462,
+    3.729,
+    4.425
+   ],
+   "ratio": [
+    0.94,
+    0.932,
+    1.106
+   ],
+   "in_band": true,
+   "moved_toward": [
+    true,
+    true,
+    true
+   ],
+   "order_ok": true,
+   "kcal_pmae": 18.74,
+   "kcal_minus_S0": -0.14,
+   "dist_to_S0": 0.06
+  },
+  "N5k_R10_S3": {
+   "n": 3,
+   "start": [
+    3.0,
+    3.0,
+    3.0
+   ],
+   "final": [
+    8.471,
+    3.728,
+    4.415
+   ],
+   "ratio": [
+    0.941,
+    0.932,
+    1.104
+   ],
+   "in_band": true,
+   "moved_toward": [
+    true,
+    true,
+    true
+   ],
+   "order_ok": true,
+   "kcal_pmae": 18.84,
+   "kcal_minus_S0": -0.04,
+   "dist_to_S0": 0.047
+  },
+  "N5k_R10_S4": {
+   "n": 3,
+   "start": [
+    12.0,
+    12.0,
+    12.0
+   ],
+   "final": [
+    8.467,
+    3.738,
+    4.418
+   ],
+   "ratio": [
+    0.941,
+    0.934,
+    1.105
+   ],
+   "in_band": true,
+   "moved_toward": [
+    true,
+    true,
+    true
+   ],
+   "order_ok": true,
+   "kcal_pmae": 18.69,
+   "kcal_minus_S0": -0.19,
+   "dist_to_S0": 0.054
+  },
+  "NVR_R1_S0": {
+   "n": 5,
+   "start": [
+    9.0,
+    4.0,
+    4.0
+   ],
+   "final": [
+    9.036,
+    3.938,
+    3.996
+   ],
+   "ratio": [
+    1.004,
+    0.984,
+    0.999
+   ],
+   "in_band": true,
+   "moved_toward": [
+    true,
+    true,
+    true
+   ],
+   "order_ok": true,
+   "kcal_pmae": 18.87
+  },
+  "NVR_R1_S1": {
+   "n": 5,
+   "start": [
+    6.0,
+    6.0,
+    6.0
+   ],
+   "final": [
+    5.419,
+    5.163,
+    5.391
+   ],
+   "ratio": [
+    0.602,
+    1.291,
+    1.348
+   ],
+   "in_band": false,
+   "moved_toward": [
+    false,
+    true,
+    true
+   ],
+   "order_ok": true,
+   "kcal_pmae": 18.98,
+   "kcal_minus_S0": 0.11,
+   "dist_to_S0": 4.066
+  },
+  "NVR_R1_S2": {
+   "n": 5,
+   "start": [
+    4.0,
+    9.0,
+    9.0
+   ],
+   "final": [
+    3.066,
+    7.971,
+    7.988
+   ],
+   "ratio": [
+    0.341,
+    1.993,
+    1.997
+   ],
+   "in_band": false,
+   "moved_toward": [
+    false,
+    true,
+    true
+   ],
+   "order_ok": false,
+   "kcal_pmae": 27.25,
+   "kcal_minus_S0": 8.38,
+   "dist_to_S0": 8.237
+  },
+  "NVR_R1_S3": {
+   "n": 5,
+   "start": [
+    3.0,
+    3.0,
+    3.0
+   ],
+   "final": [
+    3.837,
+    3.835,
+    3.842
+   ],
+   "ratio": [
+    0.426,
+    0.959,
+    0.961
+   ],
+   "in_band": false,
+   "moved_toward": [
+    true,
+    true,
+    true
+   ],
+   "order_ok": false,
+   "kcal_pmae": 28.47,
+   "kcal_minus_S0": 9.6,
+   "dist_to_S0": 5.202
+  },
+  "NVR_R1_S4": {
+   "n": 5,
+   "start": [
+    12.0,
+    12.0,
+    12.0
+   ],
+   "final": [
+    10.96,
+    10.921,
+    10.942
+   ],
+   "ratio": [
+    1.218,
+    2.73,
+    2.735
+   ],
+   "in_band": false,
+   "moved_toward": [
+    true,
+    true,
+    true
+   ],
+   "order_ok": true,
+   "kcal_pmae": 72.65,
+   "kcal_minus_S0": 53.78,
+   "dist_to_S0": 10.035
+  },
+  "NVR_R10_S0": {
+   "n": 5,
+   "start": [
+    9.0,
+    4.0,
+    4.0
+   ],
+   "final": [
+    9.329,
+    3.849,
+    3.885
+   ],
+   "ratio": [
+    1.037,
+    0.962,
+    0.971
+   ],
+   "in_band": true,
+   "moved_toward": [
+    true,
+    true,
+    true
+   ],
+   "order_ok": true,
+   "kcal_pmae": 18.89
+  },
+  "NVR_R10_S1": {
+   "n": 5,
+   "start": [
+    6.0,
+    6.0,
+    6.0
+   ],
+   "final": [
+    7.077,
+    4.354,
+    4.822
+   ],
+   "ratio": [
+    0.786,
+    1.089,
+    1.206
+   ],
+   "in_band": false,
+   "moved_toward": [
+    true,
+    true,
+    true
+   ],
+   "order_ok": true,
+   "kcal_pmae": 18.96,
+   "kcal_minus_S0": 0.07,
+   "dist_to_S0": 2.491
+  },
+  "NVR_R10_S2": {
+   "n": 5,
+   "start": [
+    4.0,
+    9.0,
+    9.0
+   ],
+   "final": [
+    3.789,
+    5.112,
+    6.23
+   ],
+   "ratio": [
+    0.421,
+    1.278,
+    1.558
+   ],
+   "in_band": false,
+   "moved_toward": [
+    false,
+    true,
+    true
+   ],
+   "order_ok": false,
+   "kcal_pmae": 19.09,
+   "kcal_minus_S0": 0.2,
+   "dist_to_S0": 6.147
+  },
+  "NVR_R10_S3": {
+   "n": 5,
+   "start": [
+    3.0,
+    3.0,
+    3.0
+   ],
+   "final": [
+    6.28,
+    4.536,
+    5.15
+   ],
+   "ratio": [
+    0.698,
+    1.134,
+    1.287
+   ],
+   "in_band": false,
+   "moved_toward": [
+    true,
+    true,
+    false
+   ],
+   "order_ok": true,
+   "kcal_pmae": 18.89,
+   "kcal_minus_S0": 0.0,
+   "dist_to_S0": 3.372
+  },
+  "NVR_R10_S4": {
+   "n": 5,
+   "start": [
+    12.0,
+    12.0,
+    12.0
+   ],
+   "final": [
+    5.958,
+    4.632,
+    5.305
+   ],
+   "ratio": [
+    0.662,
+    1.158,
+    1.326
+   ],
+   "in_band": false,
+   "moved_toward": [
+    false,
+    true,
+    true
+   ],
+   "order_ok": true,
+   "kcal_pmae": 18.81,
+   "kcal_minus_S0": -0.08,
+   "dist_to_S0": 3.741
+  }
+ },
+ "H1_checks_passed": "4 / 8",
+ "H1_PASS": false
+}
