@@ -1,0 +1,3 @@
+dataset,images,dishes,train,test_or_folds,mean_kcal,mean_mass_g,mean_fat_g,mean_carb_g,mean_protein_g,licence
+Nutrition5k (overhead RGB),3260,3260,2754,506,255.2,215.1,12.7,19.4,18.0,CC BY 4.0
+NutritionVerse-Real,889,225,5-fold,grouped by dish,872.7,417.3,40.3,63.4,66.1,CC BY-NC-SA 4.0

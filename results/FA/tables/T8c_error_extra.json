@@ -1,0 +1,143 @@
+{
+ "mass_cutoffs_g": [
+  108.0,
+  236.0
+ ],
+ "groups": {
+  "light": {
+   "n": 166,
+   "mean_true_kcal": 88.1,
+   "Pooled": {
+    "PMAE": 29.8,
+    "MAE_kcal": 26.2,
+    "bias_pct": 2.9
+   },
+   "Summed maps": {
+    "PMAE": 23.1,
+    "MAE_kcal": 20.4,
+    "bias_pct": -0.7
+   },
+   "Maps+cons.": {
+    "PMAE": 23.7,
+    "MAE_kcal": 20.9,
+    "bias_pct": -0.1
+   },
+   "ANF": {
+    "PMAE": 22.7,
+    "MAE_kcal": 20.0,
+    "bias_pct": 1.1
+   }
+  },
+  "medium": {
+   "n": 171,
+   "mean_true_kcal": 234.1,
+   "Pooled": {
+    "PMAE": 21.2,
+    "MAE_kcal": 49.5,
+    "bias_pct": -2.7
+   },
+   "Summed maps": {
+    "PMAE": 19.1,
+    "MAE_kcal": 44.7,
+    "bias_pct": -4.9
+   },
+   "Maps+cons.": {
+    "PMAE": 18.6,
+    "MAE_kcal": 43.6,
+    "bias_pct": -4.6
+   },
+   "ANF": {
+    "PMAE": 18.9,
+    "MAE_kcal": 44.3,
+    "bias_pct": -5.3
+   }
+  },
+  "heavy": {
+   "n": 169,
+   "mean_true_kcal": 443.0,
+   "Pooled": {
+    "PMAE": 17.2,
+    "MAE_kcal": 76.1,
+    "bias_pct": -6.2
+   },
+   "Summed maps": {
+    "PMAE": 15.6,
+    "MAE_kcal": 69.0,
+    "bias_pct": -7.6
+   },
+   "Maps+cons.": {
+    "PMAE": 15.2,
+    "MAE_kcal": 67.4,
+    "bias_pct": -6.9
+   },
+   "ANF": {
+    "PMAE": 16.3,
+    "MAE_kcal": 72.0,
+    "bias_pct": -6.7
+   }
+  }
+ },
+ "share_ANF_best": 0.302,
+ "worst25": {
+  "median_true_kcal": 31.0,
+  "median_mass": 56.0,
+  "share_single_ingredient": 0.6,
+  "share_over": 0.92
+ },
+ "worst6": [
+  {
+   "dish": "dish_1558641200",
+   "true_kcal": 3.28,
+   "ANF_kcal": 13.0,
+   "mass": 8.0,
+   "ingredients": [
+    "carrot"
+   ]
+  },
+  {
+   "dish": "dish_1558113430",
+   "true_kcal": 7.84,
+   "ANF_kcal": 30.3,
+   "mass": 28.0,
+   "ingredients": [
+    "mixed greens"
+   ]
+  },
+  {
+   "dish": "dish_1563897047",
+   "true_kcal": 66.04,
+   "ANF_kcal": 247.9,
+   "mass": 127.0,
+   "ingredients": [
+    "egg whites"
+   ]
+  },
+  {
+   "dish": "dish_1559239151",
+   "true_kcal": 9.2,
+   "ANF_kcal": 27.2,
+   "mass": 40.0,
+   "ingredients": [
+    "spinach (raw)"
+   ]
+  },
+  {
+   "dish": "dish_1566501575",
+   "true_kcal": 251.69,
+   "ANF_kcal": 590.8,
+   "mass": 54.0,
+   "ingredients": [
+    "brownies"
+   ]
+  },
+  {
+   "dish": "dish_1566589933",
+   "true_kcal": 89.06,
+   "ANF_kcal": 197.1,
+   "mass": 122.0,
+   "ingredients": [
+    "tofu"
+   ]
+  }
+ ]
+}

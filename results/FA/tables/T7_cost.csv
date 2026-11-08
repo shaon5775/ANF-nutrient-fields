@@ -1,0 +1,5 @@
+model,trainable params,mean train s per run,head ms per image
+Pooled regression,67077,4.7,0.0015
+Summed maps,17160,5.3,0.0066
+Maps + consistency loss,17160,6.1,0.0066
+ANF (ours),17160,7.8,0.0077
