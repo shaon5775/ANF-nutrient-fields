@@ -1,0 +1,30 @@
+{
+ "Best": {
+  "dish": "dish_1565123881",
+  "score": 0.6342702507972717,
+  "groups": [
+   "meat_red",
+   "pizza",
+   "salad_prepared",
+   "squash_eggplant"
+  ]
+ },
+ "Median": {
+  "dish": "dish_1560368506",
+  "score": 0.3062654435634613,
+  "groups": [
+   "fish",
+   "meat_red",
+   "melon",
+   "rice"
+  ]
+ },
+ "Worst": {
+  "dish": "dish_1562788536",
+  "score": -0.35084158182144165,
+  "groups": [
+   "corn",
+   "rice"
+  ]
+ }
+}
